@@ -1,0 +1,23 @@
+<style>
+  .animHeart {
+    font-size: 30px;
+    animation: heartbeat 1.5s infinite;
+    display: inline-block;
+  }
+  @keyframes heartbeat {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.3); }
+    50% { transform: scale(1); }
+    75% { transform: scale(1.2); }
+  }
+</style>
+
+<div class="animHeart">❤️</div> <span>Seni seviyorum!</span>
+<div style="text-align:center; font-family:'Comic Sans MS', cursive; cursor:pointer;" onclick="this.innerHTML='🌸 माझ्या <b>Duygu</b>सारखी फुलं क्वचितच येतात...<br>तू माझ्या <span style=color:red>❤️</span> कोडमध्येही बसलीस!'">
+  <u>👉 Tıkla ve şiiri aç! 👈</u>
+</div>
+<audio controls style="display:none;" id="mySong" src="hayali_sarkim.mp3"></audio>
+<button onclick="document.getElementById('mySong').play()" 
+        style="background:#ff6b6b; color:white; border:none; padding:10px; border-radius:10px;">
+  🎶 "Tujhya Kadhe Prem Tare" Çal (Marathi-Türkçe Remix) 
+</button>
